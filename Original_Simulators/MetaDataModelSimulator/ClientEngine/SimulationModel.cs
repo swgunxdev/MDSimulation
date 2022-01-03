@@ -1,8 +1,3 @@
-﻿// ----------------------------------------------------------------------
-//       Copyright (C) 4/8/2013 10:14:44 AM ClearOne Communications, Inc. All rights reserved.
-//              CONFIDENTIAL AND PROPRIETARY INFORMATION OF
-//                  CLEARONE COMMUNICATIONS, INC.
-//                    DO NOT DISTRIBUTE
 //
 // File Name: SimulationModel
 // ----------------------------------------------------------------------

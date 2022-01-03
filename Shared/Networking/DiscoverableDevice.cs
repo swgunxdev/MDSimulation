@@ -1,8 +1,3 @@
-﻿// ----------------------------------------------------------------------
-//       Copyright (C) 5/6/2013 1:45:01 PM ClearOne Communications, Inc. All rights reserved.
-//              CONFIDENTIAL AND PROPRIETARY INFORMATION OF
-//                  CLEARONE COMMUNICATIONS, INC.
-//                    DO NOT DISTRIBUTE
 //
 // File Name: DiscoverableDevice
 // ----------------------------------------------------------------------

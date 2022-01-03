@@ -1,8 +1,3 @@
-﻿// ----------------------------------------------------------------------
-//       Copyright (C) 4/11/2013 9:25:44 AM ClearOne Communications, Inc. All rights reserved.
-//              CONFIDENTIAL AND PROPRIETARY INFORMATION OF
-//                  CLEARONE COMMUNICATIONS, INC.
-//                    DO NOT DISTRIBUTE
 //
 // File Name: ClientCommMgr
 // ----------------------------------------------------------------------

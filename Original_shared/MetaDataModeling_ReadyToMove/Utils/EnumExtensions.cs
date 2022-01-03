@@ -1,8 +1,3 @@
-﻿// ----------------------------------------------------------------------
-//       Copyright (C) 2012 ClearOne Communications, Inc. All rights reserved.
-//              CONFIDENTIAL AND PROPRIETARY INFORMATION OF 
-//                  CLEARONE COMMUNICATIONS, INC. 
-//                    DO NOT DISTRIBUTE 
 //
 // File Name: EnumExtensions.cs
 // ----------------------------------------------------------------------

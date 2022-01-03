@@ -1,8 +1,3 @@
-﻿// ----------------------------------------------------------------------
-//       Copyright (C) 4/26/2013 11:10:41 AM ClearOne Communications, Inc. All rights reserved.
-//              CONFIDENTIAL AND PROPRIETARY INFORMATION OF
-//                  CLEARONE COMMUNICATIONS, INC.
-//                    DO NOT DISTRIBUTE
 //
 // File Name: NullModel
 // ----------------------------------------------------------------------

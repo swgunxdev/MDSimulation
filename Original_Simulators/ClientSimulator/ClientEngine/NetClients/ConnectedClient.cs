@@ -1,8 +1,3 @@
-﻿// ----------------------------------------------------------------------
-//       Copyright (C) 5/17/2013 11:30:49 AM ClearOne Communications, Inc. All rights reserved.
-//              CONFIDENTIAL AND PROPRIETARY INFORMATION OF
-//                  CLEARONE COMMUNICATIONS, INC.
-//                    DO NOT DISTRIBUTE
 //
 // File Name: ConnectedClient
 // ----------------------------------------------------------------------
