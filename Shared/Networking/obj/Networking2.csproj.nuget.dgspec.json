@@ -1,0 +1,41 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/spgeorge/Programming/CSharp/TestSolution/Shared/Networking/Networking2.csproj": {}
+  },
+  "projects": {
+    "/home/spgeorge/Programming/CSharp/TestSolution/Shared/Networking/Networking2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/Networking/Networking2.csproj",
+        "projectName": "Networking2",
+        "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/Networking/Networking2.csproj",
+        "packagesPath": "/home/spgeorge/.nuget/packages/",
+        "outputPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/Networking/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/home/spgeorge/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net40"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net40": {
+            "projectReferences": {
+              "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDInterfaces/TimpInterfaces.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDInterfaces/TimpInterfaces.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    }
+  }
+}

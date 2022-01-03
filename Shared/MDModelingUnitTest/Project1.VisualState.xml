@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="false">
+  <TopNode>[0-1034]MetadataUnitTesting.GenericPropertyTest.TestMetadataTwoSerialization</TopNode>
+  <SelectedNode>[0-1064]MetadataUnitTesting.LocationIDTest.ToByteArrayTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1000]/home/sgeorge/workspace/metadata/Spencer/MetaDataModelingUnitTest/Project1.nunit" Expanded="true" />
+    <Node UniqueName="[0-1099]/home/sgeorge/workspace/metadata/Spencer/MetaDataModelingUnitTest/bin/Debug/MetadataUnitTesting.dll" Expanded="true" />
+    <Node UniqueName="[0-1100]MetadataUnitTesting" Expanded="true" />
+    <Node UniqueName="[0-1008]MetadataUnitTesting.BaseContainerTest" Expanded="true" />
+    <Node UniqueName="[0-1010]MetadataUnitTesting.BaseContainerTest.AddChildTest" Expanded="true" />
+    <Node UniqueName="[0-1012]MetadataUnitTesting.BaseContainerTest.ChildTest" Expanded="true" />
+    <Node UniqueName="[0-1013]MetadataUnitTesting.BaseContainerTest.PropertyTest" Expanded="true" />
+    <Node UniqueName="[0-1024]MetadataUnitTesting.GenericPropertyTest" Expanded="true" />
+    <Node UniqueName="[0-1035]MetadataUnitTesting.GenericPropertyTest.GenericPropertyChangedEventTest" Expanded="true" />
+    <Node UniqueName="[0-1049]MetadataUnitTesting.LocationIdIteratorTest" Expanded="true" />
+    <Node UniqueName="[0-1054]MetadataUnitTesting.LocationIdIteratorTest.CurrentLocationTest" Expanded="true" />
+    <Node UniqueName="[0-1055]MetadataUnitTesting.LocationIDTest" Expanded="true" />
+    <Node UniqueName="[0-1065]MetadataUnitTesting.LocationIDTest.CompareToTest" Expanded="true" />
+    <Node UniqueName="[0-1064]MetadataUnitTesting.LocationIDTest.ToByteArrayTest" Expanded="true" />
+  </Nodes>
+</VisualState>

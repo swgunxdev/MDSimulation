@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{BB4A118D-2CF0-4D5B-B80E-C91674530316}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LinuxClientSimulator</RootNamespace>
+    <AssemblyName>LinuxClientSimulator</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="SLF.NLogFacade">
+      <HintPath>..\..\..\ThirdParty\SLF\Facades\SLF.NLogFacade\bin\Debug\SLF.NLogFacade.dll</HintPath>
+    </Reference>
+    <Reference Include="SLF">
+      <HintPath>..\..\..\ThirdParty\SLF\Facades\SLF.NLogFacade\bin\Debug\SLF.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="LinuxClientSimulator.exe.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ThirdParty\DistributedCommand\DistributedCommand.Framework\DistributedCommand.Framework.csproj">
+      <Project>{D8646AF0-D882-4135-8424-5DD770B5A1B0}</Project>
+      <Name>DistributedCommand.Framework</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientEngine\ClientEngine.csproj">
+      <Project>{42CAFD0E-6680-4DB8-85F4-19485387B2A8}</Project>
+      <Name>ClientEngine</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SimTaskMgr\SimTaskMgr.csproj">
+      <Project>{6A31E2D3-B824-448B-9E9F-232DB0A3FCFA}</Project>
+      <Name>SimTaskMgr</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MDShared\MDInterfaces\TimpInterfaces.csproj">
+      <Project>{FDD16F9E-82C9-4DC5-93AA-20C61ED1332A}</Project>
+      <Name>TimpInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

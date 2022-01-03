@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/MDModelingUnitTest.csproj": {}
+  },
+  "projects": {
+    "/home/spgeorge/Programming/CSharp/TestSolution/MDShared/BaremetalDll/BaremetalDll.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/spgeorge/Programming/CSharp/TestSolution/MDShared/BaremetalDll/BaremetalDll.csproj",
+        "projectName": "BaremetalDll",
+        "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/MDShared/BaremetalDll/BaremetalDll.csproj",
+        "packagesPath": "/home/spgeorge/.nuget/packages/",
+        "outputPath": "/home/spgeorge/Programming/CSharp/TestSolution/MDShared/BaremetalDll/obj/",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NETCore.ILAsm": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "runtime.linux-x64.Microsoft.NETCore.ILAsm": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/spgeorge/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj",
+        "projectName": "MDModeling",
+        "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj",
+        "packagesPath": "/home/spgeorge/.nuget/packages/",
+        "outputPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/spgeorge/Programming/CSharp/TestSolution/MDShared/BaremetalDll/BaremetalDll.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/MDShared/BaremetalDll/BaremetalDll.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/spgeorge/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/MDModelingUnitTest.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/MDModelingUnitTest.csproj",
+        "projectName": "MDModelingUnitTest",
+        "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/MDModelingUnitTest.csproj",
+        "packagesPath": "/home/spgeorge/.nuget/packages/",
+        "outputPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/obj/",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj"
+              },
+              "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDProtocol/MDProtocol.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDProtocol/MDProtocol.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.11.0, )"
+            },
+            "NUnit": {
+              "target": "Package",
+              "version": "[3.13.2, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/spgeorge/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDProtocol/MDProtocol.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDProtocol/MDProtocol.csproj",
+        "projectName": "MDProtocol",
+        "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDProtocol/MDProtocol.csproj",
+        "packagesPath": "/home/spgeorge/.nuget/packages/",
+        "outputPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDProtocol/obj/",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj"
+              },
+              "/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/SimulationInterface.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/SimulationInterface.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/spgeorge/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/SimulationInterface.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/SimulationInterface.csproj",
+        "projectName": "SimulationInterface",
+        "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/SimulationInterface.csproj",
+        "packagesPath": "/home/spgeorge/.nuget/packages/",
+        "outputPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/",
+        "projectStyle": "PackageReference",
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "slf4net": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/spgeorge/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

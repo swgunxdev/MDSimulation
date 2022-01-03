@@ -1,0 +1,16 @@
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/MDModeling.csproj.AssemblyReference.cache
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/MDModeling.GeneratedMSBuildEditorConfig.editorconfig
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/MDModeling.AssemblyInfoInputs.cache
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/MDModeling.AssemblyInfo.cs
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/MDModeling.csproj.CoreCompileInputs.cache
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/bin/Debug/net6.0/MDModeling.deps.json
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/bin/Debug/net6.0/MDModeling.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/bin/Debug/net6.0/ref/MDModeling.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/bin/Debug/net6.0/MDModeling.pdb
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/MDModeling.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/ref/MDModeling.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/MDModeling.pdb
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/bin/Debug/net6.0/BareMetal.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/bin/Debug/net6.0/BaremetalDll.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/bin/Debug/net6.0/BaremetalDll.pdb
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/Debug/net6.0/MDModeling.csproj.CopyComplete

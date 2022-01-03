@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MDModeling/1.0.0": {
+        "dependencies": {
+          "BaremetalDll": "1.0.0",
+          "BareMetal": "1.0.0.0"
+        },
+        "runtime": {
+          "MDModeling.dll": {}
+        }
+      },
+      "Microsoft.NETCore.ILAsm/6.0.0": {},
+      "runtime.linux-x64.Microsoft.NETCore.ILAsm/6.0.0": {
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/ilasm": {
+            "rid": "linux-x64",
+            "assetType": "native",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "BaremetalDll/1.0.0": {
+        "dependencies": {
+          "Microsoft.NETCore.ILAsm": "6.0.0",
+          "runtime.linux-x64.Microsoft.NETCore.ILAsm": "6.0.0"
+        },
+        "runtime": {
+          "BaremetalDll.dll": {}
+        }
+      },
+      "BareMetal/1.0.0.0": {
+        "runtime": {
+          "BareMetal.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MDModeling/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NETCore.ILAsm/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6THeLm5nwRJrwRbJdgs5Xj4qtvvnKlNY6bMTrlO7k2XgfI8aEjySHxMY/KzuGyHqNZtT+Z2lGt3HFiGKEjVmFg==",
+      "path": "microsoft.netcore.ilasm/6.0.0",
+      "hashPath": "microsoft.netcore.ilasm.6.0.0.nupkg.sha512"
+    },
+    "runtime.linux-x64.Microsoft.NETCore.ILAsm/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JZSq6yjbOQaKh01rpt0PVZgDPTco48cqHn/zRCEbNT2Clps0sH+YGIfI/icPbbEMD5/nWxkltbCZmDvvVHdzxg==",
+      "path": "runtime.linux-x64.microsoft.netcore.ilasm/6.0.0",
+      "hashPath": "runtime.linux-x64.microsoft.netcore.ilasm.6.0.0.nupkg.sha512"
+    },
+    "BaremetalDll/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BareMetal/1.0.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

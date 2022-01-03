@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{89559F29-9A20-4747-A410-1779B5AA88B2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>MetaDataModeling</RootNamespace>
+    <AssemblyName>MetaDataModeling</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="ArrayOf.cs" />
+    <Compile Include="BaseContainer.cs" />
+    <Compile Include="ClrPayload.cs" />
+    <Compile Include="Constants.cs" />
+    <Compile Include="GenericProperty.cs" />
+    <Compile Include="IdNode.cs" />
+    <Compile Include="IdType.cs" />
+    <Compile Include="IMDSerialize.cs" />
+    <Compile Include="LocationID.cs" />
+    <Compile Include="LocationIterator.cs" />
+    <Compile Include="MDHeader.cs" />
+    <Compile Include="MetadataFactory.cs" />
+    <Compile Include="ModelNotifyChanged.cs" />
+    <Compile Include="ObjVersion.cs" />
+    <Compile Include="RangedProperty.cs" />
+    <Compile Include="StringProperty.cs" />
+    <Compile Include="Utils\BitConverter.cs" />
+    <Compile Include="Utils\EnumExtensions.cs" />
+    <Compile Include="Utils\GenRandom.cs" />
+    <Compile Include="Utils\HashHelper.cs" />
+    <Compile Include="Utils\InvalidValueException.cs" />
+    <Compile Include="Utils\MsgPackHelpers.cs" />
+    <Compile Include="Utils\PassthroughConverter.cs" />
+    <Compile Include="PropertyBase.cs" />
+    <Compile Include="Extenders\StreamExt.cs" />
+    <Compile Include="Providers\ByteArryTypeProvider.cs" />
+    <Compile Include="Providers\BytesProvider.cs" />
+    <Compile Include="Providers\CLRIntegralTypeProvider.cs" />
+    <Compile Include="Providers\IBytesProvider.cs" />
+    <Compile Include="Providers\MetadataTypeProvider.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MDInterfaces\TimpInterfaces.csproj">
+      <Project>{FDD16F9E-82C9-4DC5-93AA-20C61ED1332A}</Project>
+      <Name>TimpInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

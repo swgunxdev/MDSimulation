@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{960B59F4-0602-4A26-8E79-EC3690FC2CCE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>LinuxTerminal</RootNamespace>
+    <AssemblyName>LinuxTerminal</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Main.cs" />
+    <Compile Include="AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <None Include="LinuxTerminal.exe.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ThirdParty\SLF\SLF\SLF.csproj">
+      <Project>{F969A551-EE0E-4129-9E88-AC5291985589}</Project>
+      <Name>SLF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MDShared\MDInterfaces\TimpInterfaces.csproj">
+      <Project>{FDD16F9E-82C9-4DC5-93AA-20C61ED1332A}</Project>
+      <Name>TimpInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ClientEngine\ClientEngine.csproj">
+      <Project>{42CAFD0E-6680-4DB8-85F4-19485387B2A8}</Project>
+      <Name>ClientEngine</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
