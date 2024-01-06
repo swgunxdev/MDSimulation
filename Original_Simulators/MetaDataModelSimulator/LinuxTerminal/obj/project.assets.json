@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.0": {
+      "ClientEngine/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.0",
+        "dependencies": {
+          "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj": "1.0.0",
+          "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataModeling/MetaDataModeling.csproj": "1.0.0",
+          "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataProtocol/MetaDataProtocol.csproj": "1.0.0",
+          "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/Networking/Networking.csproj": "1.0.0",
+          "SLF": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ClientEngine.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClientEngine.dll": {}
+        }
+      },
+      "SLF/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v2.0",
+        "compile": {
+          "bin/placeholder/SLF.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SLF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClientEngine/1.0.0": {
+      "type": "project",
+      "path": "../ClientEngine/ClientEngine.csproj",
+      "msbuildProject": "../ClientEngine/ClientEngine.csproj"
+    },
+    "SLF/1.0.0": {
+      "type": "project",
+      "path": "../../../ThirdParty/SLF/SLF/SLF.csproj",
+      "msbuildProject": "../../../ThirdParty/SLF/SLF/SLF.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.0": [
+      "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj",
+      "ClientEngine >= 1.0.0",
+      "SLF >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/spgeorge/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/LinuxTerminal/LinuxTerminal.csproj",
+      "projectName": "LinuxTerminal",
+      "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/LinuxTerminal/LinuxTerminal.csproj",
+      "packagesPath": "/home/spgeorge/.nuget/packages/",
+      "outputPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/LinuxTerminal/obj/",
+      "projectStyle": "PackageReference",
+      "skipContentFileWrite": true,
+      "originalTargetFrameworks": [
+        "net40"
+      ],
+      "frameworks": {
+        "net40": {
+          "projectReferences": {
+            "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj": {
+              "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj"
+            },
+            "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/ClientEngine/ClientEngine.csproj": {
+              "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/ClientEngine/ClientEngine.csproj"
+            },
+            "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/ThirdParty/SLF/SLF/SLF.csproj": {
+              "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/ThirdParty/SLF/SLF/SLF.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net40": {}
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataModeling/MetaDataModeling.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataModeling/MetaDataModeling.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataProtocol/MetaDataProtocol.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataProtocol/MetaDataProtocol.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/Networking/Networking.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/Networking/Networking.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    }
+  ]
+}

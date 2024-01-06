@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{42CAFD0E-6680-4DB8-85F4-19485387B2A8}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ClientEngine</RootNamespace>
+    <AssemblyName>ClientEngine</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="SLF.NLogFacade">
+      <HintPath>..\..\..\ThirdParty\SLF\Facades\SLF.NLogFacade\bin\Debug\SLF.NLogFacade.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="DiscoverableDevice.cs" />
+    <Compile Include="EngineStates\AbstractClientState.cs" />
+    <Compile Include="EngineStates\RunState.cs" />
+    <Compile Include="EngineStates\StartState.cs" />
+    <Compile Include="EngineStates\EndState.cs" />
+    <Compile Include="EngineStates\InitState.cs" />
+    <Compile Include="EngineStates\ShutdownState.cs" />
+    <Compile Include="EngineStates\StartServersState.cs" />
+    <Compile Include="EngineStates\StopState.cs" />
+    <Compile Include="EngineStates\StopServersState.cs" />
+    <Compile Include="NetClients\AuthenticationClient.cs" />
+    <Compile Include="NetClients\ClientConnection.cs" />
+    <Compile Include="NetClients\CommandClient.cs" />
+    <Compile Include="NetClients\FirmwareClient.cs" />
+    <Compile Include="NetServers\AuthenticationServer.cs" />
+    <Compile Include="NetServers\CommandArgs.cs" />
+    <Compile Include="NetServers\CommandHandler.cs" />
+    <Compile Include="NetServers\CommandServer.cs" />
+    <Compile Include="NetServers\ConnectedClient.cs" />
+    <Compile Include="NetServers\DiscoveryServer.cs" />
+    <Compile Include="NetServers\FirmwareServer.cs" />
+    <Compile Include="NetServers\MeterHandler.cs" />
+    <Compile Include="NetServers\StatusHandler.cs" />
+    <Compile Include="SimAuthenticator.cs" />
+    <Compile Include="SimDeviceCommMgr.cs" />
+    <Compile Include="SimulationModel.cs" />
+    <Compile Include="SimulatorEngine.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\MDShared\MDInterfaces\TimpInterfaces.csproj">
+      <Project>{FDD16F9E-82C9-4DC5-93AA-20C61ED1332A}</Project>
+      <Name>TimpInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MDShared\MetaDataModeling\MetaDataModeling.csproj">
+      <Project>{89559F29-9A20-4747-A410-1779B5AA88B2}</Project>
+      <Name>MetaDataModeling</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MDShared\MetaDataProtocol\MetaDataProtocol.csproj">
+      <Project>{AB216285-D1EB-42EA-8004-002AA45D9DC1}</Project>
+      <Name>MetaDataProtocol</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\ThirdParty\SLF\SLF\SLF.csproj">
+      <Project>{F969A551-EE0E-4129-9E88-AC5291985589}</Project>
+      <Name>SLF</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\..\MDShared\Networking\Networking.csproj">
+      <Project>{69568E4F-5624-4E3D-9B32-FD53793E2DCF}</Project>
+      <Name>Networking</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

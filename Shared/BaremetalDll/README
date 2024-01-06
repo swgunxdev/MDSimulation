@@ -1,0 +1,3 @@
+Currently, this only has the Earlz.BareMetal.BareMetal.SizeOf<T> function. This gets the ACTUAL size in memory of a type reference. So, if you give it a byte, because .Net will actually pad it to 4 or 8 bytes, you'll get something other than 1.
+
+See http://lastyearswishes.com/blog/view/50a30d3bd1f1a5234323b198 for more info and sample code

@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "dgSpecHash": "GbGRcB7J3Stj2lmbZ8xak01V1MltovopOV2W5Hzlb04RjkifLt+qUeV5nNVq3lyjs3reJp+3DrhkDdZuQKTD3Q==",
+  "success": false,
+  "projectFilePath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/ClientEngine/ClientEngine.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataModeling/MetaDataModeling.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataModeling/MetaDataModeling.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataProtocol/MetaDataProtocol.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataProtocol/MetaDataProtocol.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    },
+    {
+      "code": "NU1105",
+      "level": "Error",
+      "message": "Unable to find project information for '/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/Networking/Networking.csproj'. If you are using Visual Studio, this may be because the project is unloaded or not part of the current solution so run a restore from the command-line. Otherwise, the project file may be invalid or missing targets required for restore.",
+      "libraryId": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/Networking/Networking.csproj",
+      "targetGraphs": [
+        ".NETFramework,Version=v4.0"
+      ]
+    }
+  ]
+}

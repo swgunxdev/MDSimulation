@@ -1,0 +1,76 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/ClientEngine/ClientEngine.csproj": {}
+  },
+  "projects": {
+    "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/ClientEngine/ClientEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/ClientEngine/ClientEngine.csproj",
+        "projectName": "ClientEngine",
+        "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/ClientEngine/ClientEngine.csproj",
+        "packagesPath": "/home/spgeorge/.nuget/packages/",
+        "outputPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/Simulators/MetaDataModelSimulator/ClientEngine/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "originalTargetFrameworks": [
+          "net40"
+        ],
+        "frameworks": {
+          "net40": {
+            "projectReferences": {
+              "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MDInterfaces/TimpInterfaces.csproj"
+              },
+              "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataModeling/MetaDataModeling.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataModeling/MetaDataModeling.csproj"
+              },
+              "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataProtocol/MetaDataProtocol.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/MetaDataProtocol/MetaDataProtocol.csproj"
+              },
+              "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/Networking/Networking.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/MDShared/Networking/Networking.csproj"
+              },
+              "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/ThirdParty/SLF/SLF/SLF.csproj": {
+                "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/ThirdParty/SLF/SLF/SLF.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net40": {}
+      }
+    },
+    "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/ThirdParty/SLF/SLF/SLF.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/ThirdParty/SLF/SLF/SLF.csproj",
+        "projectName": "SLF",
+        "projectPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/ThirdParty/SLF/SLF/SLF.csproj",
+        "packagesPath": "/home/spgeorge/.nuget/packages/",
+        "outputPath": "/home/spgeorge/Programming/CSharp/SimulationFramework/SimulationFramework/ThirdParty/SLF/SLF/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/home/spgeorge/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net20"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net20": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net20": {}
+      }
+    }
+  }
+}

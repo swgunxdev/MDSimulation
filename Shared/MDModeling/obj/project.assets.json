@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Microsoft.NETCore.ILAsm/6.0.0": {
+        "type": "package"
+      },
+      "runtime.linux-x64.Microsoft.NETCore.ILAsm/6.0.0": {
+        "type": "package",
+        "runtimeTargets": {
+          "runtimes/linux-x64/native/ilasm": {
+            "assetType": "native",
+            "rid": "linux-x64"
+          }
+        }
+      },
+      "BaremetalDll/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.NETCore.ILAsm": "6.0.0",
+          "runtime.linux-x64.Microsoft.NETCore.ILAsm": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/BaremetalDll.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BaremetalDll.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.NETCore.ILAsm/6.0.0": {
+      "sha512": "6THeLm5nwRJrwRbJdgs5Xj4qtvvnKlNY6bMTrlO7k2XgfI8aEjySHxMY/KzuGyHqNZtT+Z2lGt3HFiGKEjVmFg==",
+      "type": "package",
+      "path": "microsoft.netcore.ilasm/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "microsoft.netcore.ilasm.6.0.0.nupkg.sha512",
+        "microsoft.netcore.ilasm.nuspec",
+        "runtime.json",
+        "runtimes/native/ilasm.exe"
+      ]
+    },
+    "runtime.linux-x64.Microsoft.NETCore.ILAsm/6.0.0": {
+      "sha512": "JZSq6yjbOQaKh01rpt0PVZgDPTco48cqHn/zRCEbNT2Clps0sH+YGIfI/icPbbEMD5/nWxkltbCZmDvvVHdzxg==",
+      "type": "package",
+      "path": "runtime.linux-x64.microsoft.netcore.ilasm/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "runtime.linux-x64.microsoft.netcore.ilasm.6.0.0.nupkg.sha512",
+        "runtime.linux-x64.microsoft.netcore.ilasm.nuspec",
+        "runtimes/linux-x64/native/ilasm"
+      ]
+    },
+    "BaremetalDll/1.0.0": {
+      "type": "project",
+      "path": "../../MDShared/BaremetalDll/BaremetalDll.csproj",
+      "msbuildProject": "../../MDShared/BaremetalDll/BaremetalDll.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "BaremetalDll >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/home/spgeorge/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj",
+      "projectName": "MDModeling",
+      "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/MDModeling.csproj",
+      "packagesPath": "/home/spgeorge/.nuget/packages/",
+      "outputPath": "/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModeling/obj/",
+      "projectStyle": "PackageReference",
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "/home/spgeorge/Programming/CSharp/TestSolution/MDShared/BaremetalDll/BaremetalDll.csproj": {
+              "projectPath": "/home/spgeorge/Programming/CSharp/TestSolution/MDShared/BaremetalDll/BaremetalDll.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/home/spgeorge/.dotnet/sdk/6.0.101/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="LinuxClientSimulator/Main.cs">
+    <Files>
+      <File FileName="ClientSimulator/Program.cs" Line="46" Column="1" />
+      <File FileName="LinuxClientSimulator/LinuxClientSimulator.exe.config" Line="82" Column="17" />
+      <File FileName="ClientSimulator/ClientSimulator.exe.config" Line="82" Column="17" />
+      <File FileName="LinuxClientSimulator/Main.cs" Line="46" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

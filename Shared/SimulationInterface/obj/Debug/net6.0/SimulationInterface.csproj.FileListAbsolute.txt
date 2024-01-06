@@ -1,0 +1,12 @@
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/bin/Debug/net6.0/SimulationInterface.deps.json
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/bin/Debug/net6.0/SimulationInterface.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/bin/Debug/net6.0/ref/SimulationInterface.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/bin/Debug/net6.0/SimulationInterface.pdb
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/Debug/net6.0/SimulationInterface.csproj.AssemblyReference.cache
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/Debug/net6.0/SimulationInterface.GeneratedMSBuildEditorConfig.editorconfig
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/Debug/net6.0/SimulationInterface.AssemblyInfoInputs.cache
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/Debug/net6.0/SimulationInterface.AssemblyInfo.cs
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/Debug/net6.0/SimulationInterface.csproj.CoreCompileInputs.cache
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/Debug/net6.0/SimulationInterface.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/Debug/net6.0/ref/SimulationInterface.dll
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/SimulationInterface/obj/Debug/net6.0/SimulationInterface.pdb

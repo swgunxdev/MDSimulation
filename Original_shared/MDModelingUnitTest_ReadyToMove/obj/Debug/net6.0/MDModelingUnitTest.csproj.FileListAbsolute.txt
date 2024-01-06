@@ -1,0 +1,5 @@
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/obj/Debug/net6.0/MDModelingUnitTest.csproj.AssemblyReference.cache
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/obj/Debug/net6.0/MDModelingUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/obj/Debug/net6.0/MDModelingUnitTest.AssemblyInfoInputs.cache
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/obj/Debug/net6.0/MDModelingUnitTest.AssemblyInfo.cs
+/home/spgeorge/Programming/CSharp/TestSolution/Shared/MDModelingUnitTest/obj/Debug/net6.0/MDModelingUnitTest.csproj.CoreCompileInputs.cache
